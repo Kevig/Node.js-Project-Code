@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script>history.replaceState(null, null, 'LogIn');</script>
+<style>
+
+body 	 				{background-color: #f0f0f0; font-size: 11pt; font-family: Georgia, serif;}
+form 	 				{width: 204px; margin: 0 auto; margin-top: 150px;}
+fieldset 				{border: none;  padding: 0px; margin: 0px;}
+.spacer	 				{height: 10px;}
+input 	 				{height: 30px; margin-bottom: 3px; margin-top: 2px; width: 200px; border: none; padding-left: 4px;}
+input:-webkit-autofill  {-webkit-box-shadow: 0 0 0 30px white inset; box-shadow: 0 0 0 30px white inset;}
+.button	 				{width: 204px; height: 40px; margin-top: 15px; background-color: rgb(98, 197, 75); color: white; border: none;}
+input:focus				{outline-style:none; box-shadow:none; border-color:transparent;}
+input:focus		 		{outline: 1px solid rgb(0, 133, 27);}
+
+</style>
+
+</head>
+<body>
+	<form action="https://www.endprojectapp.info/LogIn" method="POST">
+		<fieldset>
+
+			<input type="text" name="userName" placeholder="User Name">
+			<div class="spacer"></div>
+			<input type="password" name="password" placeholder="Password">
+			<div class="spacer"></div>
+			
+			<input class="button" type="submit" value="Submit">
+		</fieldset>
+	</form>
+</body>
+</html>

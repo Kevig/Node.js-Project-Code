@@ -1,0 +1,20 @@
+{
+  "name": "requisitions_service",
+  "version": "1.0.0",
+  "description": "",
+  "main": "Main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Kevin Groundwater",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.16.3",
+    "express-force-ssl": "^0.3.2",
+    "helmet": "^3.12.1",
+    "mongodb": "^3.0.10",
+    "request": "^2.87.0"
+  }
+}

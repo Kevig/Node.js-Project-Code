@@ -1,0 +1,12 @@
+{
+    "portHTTPS": 9191,
+    "portHTTP": 80,
+
+    "encryptKey": "F:/SSLEncryption/NewCert/Server.key",
+    "encryptCert": "F:/SSLEncryption/NewCert/Server.crt",
+    "encryptCertAuth": "F:/SSLEncryption/NewCert/Intermediate.pem",
+    "selfSignedCert_rejection": 0,
+
+    "mongoDB_URL": "mongodb://localhost:27017"
+
+}

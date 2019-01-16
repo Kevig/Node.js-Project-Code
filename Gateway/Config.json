@@ -1,0 +1,19 @@
+{
+    "portHTTPS": 9090,
+    "portHTTP": 80,
+
+    "encryptKey": "F:/SSLEncryption/NewCert/Server.key",
+    "encryptCert": "F:/SSLEncryption/NewCert/Server.crt",
+    "encryptCertAuth": "F:/SSLEncryption/NewCert/Intermediate.pem",
+    "selfSignedCert_rejection": 0,
+
+    "mongoDB_URL": "mongodb://localhost:27017",
+
+    "session_Duration_Minutes": 1,
+    "session_Key_Size" : 32,
+    "session_Removal_Interval_Minutes" : 1,
+
+    "service": [{  "name": "A Service", "ip": "endprojectapp.info", "port": 9191 },
+                {  "name": "B Service", "ip": "endprojectapp.info", "port": 9292 }]
+    
+}

@@ -1,0 +1,13 @@
+{
+    "portHTTPS": 9090,
+    "portHTTP": 80,
+
+    "encryptKey": "F:/SSLEncryption/NewCert/Server.key",
+    "encryptCert": "F:/SSLEncryption/NewCert/Server.crt",
+    "encryptCertAuth": "F:/SSLEncryption/NewCert/Intermediate.pem",
+    
+    "mongoDB_URL": "mongodb://localhost:27017",
+
+    "publisher": {"ip":"https://endprojectapp.info", "port": 9191}
+    
+}

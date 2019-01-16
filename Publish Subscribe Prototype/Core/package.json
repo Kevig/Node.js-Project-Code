@@ -1,0 +1,20 @@
+{
+  "name": "core",
+  "version": "1.0.0",
+  "description": "Core application of End Project System",
+  "main": "Core.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Kevin Groundwater",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.16.3",
+    "express-force-ssl": "^0.3.2",
+    "helmet": "^3.12.0",
+    "request": "^2.85.0",
+    "save": "^2.3.2"
+  }
+}
